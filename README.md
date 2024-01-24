@@ -1,29 +1,19 @@
-# Testes automatizados com Cypress - Básico
+# cy-data-test
 
-👋 Seja bem-vindo(a)!
+Projeto de estudo do curso Cypress Básico - Iniciante.
 
-É muito bom tê-lo(a) aqui. Tenho certeza que você vai adorar este curso. ❤️
+## Pré-requisitos
 
-## O que você vai aprender
+É necessário ter o Node.js e o npm instalados para executar este projeto.
 
-Durante o curso de testes automatizados com Cypress (básico), você vai aprender:
+Utilizei as versões `v21.6.1` e `10.2.4` do Node.js e npm, respectivamente. Sugiro que você use as mesmas versões ou versões mais recentes.
 
-- Como configurar um projeto Cypress do zero
-- Como visitar páginas locais e remotas
-- Como lidar com os elementos mais comuns encontrados em aplicações web
-- Como testar _upload_ de arquivos
-- Como realizar as mais diversas verificações de resultados esperados
-- Como criar comandos customizados
-- Como lidar com links que abrem em outra aba do navegador
-- Como rodar testes simulando as dimensões de um dispositivo móvel
-- Como resolver os mesmos problemas de diferentes formas, conhecendo a [API do Cypress](https://docs.cypress.io/api/table-of-contents)
-- Como executar os testes em um _pipeline_ de integração contínua sempre que mudanças ocorrerem no código da aplicação (ou dos testes)
-- Como criar uma documentação mínima para seu projeto de testes automatizados
+## Instalação
 
-## Vamos começar?
+Execute `npm install` (ou `npm i` para a versão curta) para instalar as dependências de desenvolvimento.
 
-Vá para a seção [estrutura do curso](./lessons/_course-structure_.md).
+## Testes
 
-___
+**Nota:** Antes de executar os testes, faça uma cópia do arquivo `cypress.env.example.json` como `cypress.env.json`, o qual, no mundo real, você atualizaria com credenciais válidas.
 
-Este é mais um curso da [**Escola Talking About Testing**](https://udemy.com/user/walmyr).
+O arquivo `cypress.env.json` está incluído no [`.gitignore`](./.gitignore) e você pode ficar tranquilo que informações confidenciais não serão versionadas.
